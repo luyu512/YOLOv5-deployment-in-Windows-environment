@@ -28,9 +28,9 @@
 
 `git clone https://github.com/ultralytics/yolov5.git`
 
-## 安装相关依赖
+## 第三步: 安装相关依赖
 
-在第三步基础上，从终端进入刚刚克隆的yolo文件夹
+在第三步基础上，从终端进入刚刚克隆的yolov5文件夹
 
 以我为例：
 
@@ -40,3 +40,16 @@
 
 `pip install -r requirements.txt`
 ![image](https://github.com/luyu512/yolov5-1-/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-27%20135706.png)
+
+
+## 第五步： 用vscode打开文件夹，并且配置Python解释器
+
+进入yolov5文件夹，右键空白区域，选择使用VsCode打开
+![image](https://github.com/luyu512/yolov5-1-/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-27%20135737.png)
+
+进入后，随便打开一个.py文件，在其右下角选择python解释器(如果前面几步无报错，此时选择的python解释器为3.8，且显示虚拟环境名称)
+![image](https://github.com/luyu512/yolov5-1-/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-27%20142055.png)
+
+## 第六步：使用train.py文件训练文件自带模型
+
+在左边文件栏中找到train.py文件，双击进入
