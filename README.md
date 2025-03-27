@@ -53,3 +53,15 @@
 ## 第六步：使用train.py文件训练文件自带模型
 
 在左边文件栏中找到train.py文件，双击进入
+在此处将源代码修改如下（博主电脑无GPU，故指定cpu训练）：
+![image](https://github.com/luyu512/yolov5-1-/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-27%20233337.png)
+
+当下方出现如下进度条时，说明训练正常
+![image](https://github.com/luyu512/yolov5-1-/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-27%20145046.png)
+
+## 第七步： 使用detect.py文件检测训练模型
+
+在左边文件栏中找到detect.py文件，双击进入并运行，待程序结束后，会发现左侧文件栏runs文件夹中多出detect子文件夹，双击进入，发现出现两张图片，即为测试图片，打开即可看到被检测的图像
+![image](https://github.com/luyu512/yolov5-1-/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-27%20144953.png)
+
+此时，恭喜您，yolov5已经部署至您的电脑上！
