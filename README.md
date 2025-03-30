@@ -38,7 +38,7 @@
 
 然后输入命令
 
-`pip install -r requirements.txt`
+`pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt`
 ![image](https://github.com/luyu512/yolov5-1-/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-27%20135706.png)
 
 
